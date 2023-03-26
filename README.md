@@ -32,7 +32,7 @@
 
 ## Authors
 - Ernest Push Gbaboh [gbabohernest](https://github.com/gbabohernest)
-- Your name [your github name as title](your actual_github link)
+- Oziegbe Daniel [Loven-D](https://github.com/Loven-D)
 
 
 ## Acknowledgements 
