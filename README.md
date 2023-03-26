@@ -2,11 +2,11 @@
 
 ## Synopsis
 
-*This is a simple implementation of the printf function that formats and prints data*
+*This is a simple implementation of the _printf function that formats and prints data*
 
 ## Description
 
-*The **_printf()** function produces output according to a format which is described below. This function write its output to the **stdout**, the standard output stream. Returns the number of characters printed(excluding the null byte used to end output to strings).*
+*The **_printf** function produces output according to a format which is described below. This function write its output to the **stdout**, the standard output stream. Returns the number of characters printed(excluding the null byte used to end output to strings).*
 
 - The available conversion specifiers are:
 
@@ -27,12 +27,12 @@
 
   - All your files will be compiled on Ubuntu 20.04 LTS
   - Compile using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-  - Include the "main.h" header file on the functions using _printf()
+  - Include the "main.h" header file on the functions using _printf
 
 
 ## Authors
-        - Ernest Push Gbaboh [gbabohernest](https://github.com/gbabohernest)
-        - Your name [your github name as title](your actual_github link)
+- Ernest Push Gbaboh [gbabohernest](https://github.com/gbabohernest)
+- Your name [your github name as title](your actual_github link)
 
 
 ## Acknowledgements 
