@@ -41,6 +41,11 @@ int _printf(const char *format, ...)
 
 #include <unistd.h>
 
+/**
+ * _putchar - prints a formatted string to stdout,
+ * @c: variable passed
+ * Return: always 0.
+ */
 int _putchar(char c)
 {
 	return (write(STDOUT_FILENO, &c, 1));
