@@ -43,5 +43,5 @@ int _printf(const char *format, ...)
 
 int _putchar(char c)
 {
-    return write(STDOUT_FILENO, &c, 1);
+	return (write(STDOUT_FILENO, &c, 1));
 }
