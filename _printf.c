@@ -21,6 +21,7 @@ int _printf(const char *format, ...)
 		{"%", _print_percent},
 		{"d", _print_integer},
 		{"i", _print_integer},
+		{"b", _print_binary},
 		{NULL, NULL}
 	};
 	va_list arg_list;
@@ -36,4 +37,11 @@ int _printf(const char *format, ...)
 	chars_printed = parser(format, fun_list, arg_list);
 	va_end(arg_list);
 	return (chars_printed);
+}
+
+#include <unistd.h>
+
+int _putchar(char c)
+{
+    return write(STDOUT_FILENO, &c, 1);
 }
