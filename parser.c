@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
 * parser - Parse the given string and print a formatted string
 * @format: String to be parsed
-* @fun_list: List of all the possible functions that will
-*	be use to parse the given string
+* @fun_list: List of all the possible parse functions
 * @arg_list: List of all arguments passed
 * Return: Total count of characters printed
 */
@@ -13,15 +11,11 @@ int parser(const char *format, asoc_fun fun_list[], va_list arg_list)
 	int chars_printed, i, j, val;
 
 	chars_printed = 0;
-
-	/*Iterate through the given string*/
-	for (i = 0; format[i] != '\0'; i++)
+	for (i = 0; format[i] != '\0'; i++)/*Iterate through the given string*/
 	{
-		/*check for format specifiers*/
-		if (format[i] == '%')
+		if (format[i] == '%')/*check for format specifiers*/
 		{
-			/*Iterate through struct checker to find the right function*/
-			for (j = 0; fun_list[j].fmt != NULL; j++)
+			for (j = 0; fun_list[j].fmt != NULL; j++)/*iterate to find the right fun*/
 			{
 				if (format[i + 1] == fun_list[j].fmt[0])
 				{
@@ -35,25 +29,17 @@ int parser(const char *format, asoc_fun fun_list[], va_list arg_list)
 			if (fun_list[j].fmt == NULL && format[i + 1] != ' ')
 			{
 				if (format[i + 1] != '\0')
-				{
 					_write(format[i]);
 					_write(format[i + 1]);
 					chars_printed = chars_printed + 2;
-				}
 				else
-				{
 					return (-1);
-				}
 			}
-			/*update i to skip format specifier*/
-			i = i + 1;
+			i = i + 1;/*update i to skip format specifier*/
 		}
 		else
-		{
-			/*call the _write function */
-			_write(format[i]);
+			_write(format[i]);/*call the write function*/
 			chars_printed++;
-		}
 	}
 	return (chars_printed);
 }
