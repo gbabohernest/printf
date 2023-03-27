@@ -30,5 +30,12 @@ int _print_string(va_list);
 int _print_percent(va_list);
 int _print_integer(va_list);
 int _print_number(va_list);
+int _print_binary(va_list);
+/*char* int_to_binary(unsigned int num);*/
 
+/*Helper Functions*/
+char *_rev_string(char *str);
+unsigned int _base_len(unsigned int num, int base);
+void _write_base(char *str);
+char *_memory_cpy(char *dest, char *src, unsigned int n);
 #endif
