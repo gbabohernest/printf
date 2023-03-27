@@ -28,5 +28,7 @@ int _write(char);
 int _print_char(va_list);
 int _print_string(va_list);
 int _print_percent(va_list);
+int _print_integer(va_list);
+int _print_number(va_list);
 
 #endif

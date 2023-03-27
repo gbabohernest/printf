@@ -13,7 +13,7 @@
   - %c: Prints a single character
   - %s: Prints a string of characters.
   - %d: Prints integers.
-  - %i: Prints integers.
+  - %i: Prints decimal integers.
   - %b: Priints the binary representation of an unsigned decimal.
   - %u: Prints unsigned integers
   - %x: Prints the hexadecimal representation of an unsigned decimal in lowercase letters

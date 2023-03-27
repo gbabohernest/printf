@@ -36,11 +36,26 @@ int _print_string(va_list str)
 
 /**
 * _print_percent - Prints a percent ' % ' symbol
-* @list: Arguments list
+* @list: Arguments list of numbers
 * Return: The printed character
 */
 int _print_percent(__attribute__((unused))va_list list)
 {
 	_write('%');
 	return (1);
+}
+
+
+/**
+ * _print_integer - Prints an integer
+ * @args: list of arguments
+ * Return: Will return the amount of characters printed.
+ */
+
+int _print_integer(va_list args)
+{
+	int number_length;
+
+	number_length = _print_number(args);
+	return (number_length);
 }
