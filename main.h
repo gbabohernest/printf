@@ -31,7 +31,8 @@ int _print_percent(va_list);
 int _print_integer(va_list);
 int _print_number(va_list);
 int _print_binary(va_list);
-/*char* int_to_binary(unsigned int num);*/
+/*int _print_binary(va_list args);*/
+/*int _putchar(char c);*/
 
 /*Helper Functions*/
 char *_rev_string(char *str);
