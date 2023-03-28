@@ -31,6 +31,10 @@ int _print_percent(va_list);
 int _print_integer(va_list);
 int _print_number(va_list);
 int _print_binary(va_list);
+int _unsigned_integer(va_list);
+int _print_octal(va_list args);
+int _print_hex(va_list args);
+int _print_HEX(va_list args);
 /*int _print_binary(va_list args);*/
 /*int _putchar(char c);*/
 
@@ -39,4 +43,6 @@ char *_rev_string(char *str);
 unsigned int _base_len(unsigned int num, int base);
 void _write_base(char *str);
 char *_memory_cpy(char *dest, char *src, unsigned int n);
+int _print_unsigned_number(unsigned int);
+int _hex_checker(int, char);
 #endif

@@ -59,3 +59,24 @@ int _print_integer(va_list args)
 	number_length = _print_number(args);
 	return (number_length);
 }
+
+/**
+* _unsigned_integer - Prints unsigned integers
+* @args: arguments list
+* Return: total count of the numbers
+*/
+int _unsigned_integer(va_list args)
+{
+	unsigned int n;
+
+	n = va_arg(args, unsigned int);
+	if (n == 0)
+	{
+		return (_print_unsigned_number(n));
+	}
+	if (n < 1)
+	{
+		return (-1);
+	}
+	return (_print_unsigned_number(n));
+}

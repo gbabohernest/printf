@@ -18,9 +18,7 @@
   - %u: Prints unsigned integers
   - %x: Prints the hexadecimal representation of an unsigned decimal in lowercase letters
   - %X: Prints the hexadecimal representation of an unsigned decimal in uppercase letters
-  - %r: Prints a reversed string
   - %:  No argument is converted. The complete conversion specfication is **%%**
-  - %R: Prints the Rot13 interpretation of a string
 
 
 ## Usage
@@ -35,7 +33,7 @@
 - Oziegbe Daniel [Loven-D](https://github.com/Loven-D)
 
 
-## Acknowledgements 
+## Acknowledgements
 
 *The **_printf** fucntion emulates functionality of the c standard library function **printf**
-This program was written as part of the curriculum for ALX Software Engineering Program. A Full-stack software engineering program that prepares students for careersin the tech industry using project-based peer learning* 
+This program was written as part of the curriculum for ALX Software Engineering Program. A Full-stack software engineering program that prepares students for careersin the tech industry using project-based peer learning*
