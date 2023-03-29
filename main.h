@@ -35,6 +35,7 @@ int _unsigned_integer(va_list);
 int _print_octal(va_list args);
 int _print_hex(va_list args);
 int _print_HEX(va_list args);
+int print_buffered(char *buffer, const char *format, ...);
 /*int _print_binary(va_list args);*/
 /*int _putchar(char c);*/
 
