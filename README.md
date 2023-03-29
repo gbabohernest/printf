@@ -36,4 +36,4 @@
 ## Acknowledgements
 
 *The **_printf** fucntion emulates functionality of the c standard library function **printf**
-This program was written as part of the curriculum for ALX Software Engineering Program. A Full-stack software engineering program that prepares students for careersin the tech industry using project-based peer learning*
+This program was written as part of the curriculum for ALX Software Engineering Program. A Full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning*
