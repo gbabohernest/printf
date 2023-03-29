@@ -19,6 +19,9 @@
   - %x: Prints the hexadecimal representation of an unsigned decimal in lowercase letters
   - %X: Prints the hexadecimal representation of an unsigned decimal in uppercase letters
   - %:  No argument is converted. The complete conversion specfication is **%%**
+  - %r: Prints a reversed string
+  - %R: Prints the Rot13 interpretation of a string
+
 
 
 ## Usage

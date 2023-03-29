@@ -21,6 +21,8 @@ int _printf(const char *format, ...)
 		{"o", _print_octal},
 		{"x", _print_hex},
 		{"X", _print_HEX},
+		{"r", _print_reversed_string},
+		{"R", _rot13},
 		{NULL, NULL}
 	};
 	va_list arg_list;
